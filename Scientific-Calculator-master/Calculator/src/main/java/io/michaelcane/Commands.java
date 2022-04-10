@@ -31,6 +31,7 @@ public class Commands {
         INVERTPOSITIVEANDNEGATIVE,
         LOGARITHM,
         MULTIPLY,
+        MOD,
         NATURALLOGARITHM,
         SETDISPLAYMODE,
         SETMEMORY,
@@ -82,6 +83,9 @@ public class Commands {
                 break;
             case MULTIPLY:
                 calculator.multiply(display.getState(), user.isNumber);
+                break;
+            case MOD:
+                calculator.mod(display.getState(), user.isNumber);
                 break;
             case NATURALLOGARITHM:
                 calculator.naturalLogarithm(user.isNumber);

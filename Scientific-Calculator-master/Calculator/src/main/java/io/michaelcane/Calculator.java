@@ -44,6 +44,14 @@ public class Calculator {
         return value1 * value2;
     }
 
+    public static double mod(double value1, double value2) {
+        /**
+         * This method should take two values (double)
+         * and find the mod of first with second
+         */
+        return value1 % value2;
+    }
+
     public static double square(double value1) {
         /**
          * This method should square a value (double) provided by the user.
