@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="io.michaelcane.CalculatorTest" time="0.025" tests="19" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="io.michaelcane.CalculatorTest" time="0.022" tests="19" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="17.0.1+1"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/17.0.1_1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/mythreyi/Desktop/cmu/mini4/QM/A3mythreyi1905/Scientific-Calculator-master/Calculator"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/mythreyi/Desktop/cmu/mini4/QM/A3mythreyi1905/CalculatorApp/Scientific-Calculator-master/Calculator"/>
     <property name="java.vm.vendor" value="Homebrew"/>
     <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -13,7 +13,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/mythreyi/Desktop/cmu/mini4/QM/A3mythreyi1905/Scientific-Calculator-master/Calculator"/>
+    <property name="user.dir" value="/Users/mythreyi/Desktop/cmu/mini4/QM/A3mythreyi1905/CalculatorApp/Scientific-Calculator-master/Calculator"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="17.0.1+1"/>
     <property name="os.arch" value="aarch64"/>
@@ -60,9 +60,9 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="test$inverseTangent" classname="io.michaelcane.CalculatorTest" time="0.004"/>
+  <testcase name="test$inverseTangent" classname="io.michaelcane.CalculatorTest" time="0.001"/>
   <testcase name="test$divide" classname="io.michaelcane.CalculatorTest" time="0"/>
-  <testcase name="test$multiply" classname="io.michaelcane.CalculatorTest" time="0.001"/>
+  <testcase name="test$multiply" classname="io.michaelcane.CalculatorTest" time="0"/>
   <testcase name="test$sin" classname="io.michaelcane.CalculatorTest" time="0"/>
   <testcase name="test$sum" classname="io.michaelcane.CalculatorTest" time="0"/>
   <testcase name="test$inverseCosin" classname="io.michaelcane.CalculatorTest" time="0"/>
@@ -73,10 +73,10 @@
   <testcase name="test$inverseSine" classname="io.michaelcane.CalculatorTest" time="0"/>
   <testcase name="test$cosin" classname="io.michaelcane.CalculatorTest" time="0"/>
   <testcase name="test$naturalLogarithm" classname="io.michaelcane.CalculatorTest" time="0"/>
-  <testcase name="test$logarithm" classname="io.michaelcane.CalculatorTest" time="0"/>
-  <testcase name="test$subract" classname="io.michaelcane.CalculatorTest" time="0.001"/>
+  <testcase name="test$logarithm" classname="io.michaelcane.CalculatorTest" time="0.001"/>
+  <testcase name="test$subract" classname="io.michaelcane.CalculatorTest" time="0"/>
   <testcase name="test$variableExponentiation" classname="io.michaelcane.CalculatorTest" time="0"/>
   <testcase name="test$tangent" classname="io.michaelcane.CalculatorTest" time="0"/>
   <testcase name="test$inverseNaturalLog" classname="io.michaelcane.CalculatorTest" time="0"/>
-  <testcase name="test$factorial" classname="io.michaelcane.CalculatorTest" time="0"/>
+  <testcase name="test$factorial" classname="io.michaelcane.CalculatorTest" time="0.001"/>
 </testsuite>
