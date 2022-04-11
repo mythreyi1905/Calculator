@@ -64,13 +64,13 @@ public class CalculatorTest {
     }
 
     @Test
-    public void test$multiply() {
+    public void test$mod() {
         /**
          * This method should take two values (double)
          * and multiply the first with the second.
          */
         double expectedValue = 1;
-        double actualValue = calculator.multiply(7, 2);
+        double actualValue = calculator.mod(7, 2);
         assertEquals("This should evaluate to 1", expectedValue, actualValue, delta);
     }
 
